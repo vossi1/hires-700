@@ -1,0 +1,25 @@
+lower left of screen is 0,0
+sprites are 24 pixel wide, 21 pixel heigh - link VIC2-sprites
+
+INIT			init graphics extension
+HIRES g,m		g=1 on/0=off, draw mode m=1 set/0 clear
+FONT f			select font 0-3 (2-3 optional with 8kB charrom)
+CLEAR			clear screen
+DOT x,y			set pixel x,y (set or clear depends on HIRES mode)
+LINE x,y,x1,y1		line from x,y to x1,y1
+SET x,y			set cursor to x,y
+DRAW x1,y1		draw line to x1,y1 (from last position / SET)
+FRAME x,y,x1,y1		frame x,y=lower left, x1,y1=upper right
+BLOCK x,y		block x,y=lower left, size dx,dy (min. 1)
+IMAGE x,y,dx,dy,adr,b	copy image from adr,bnk to x,y size dx,dy
+TEST(x)			function test returns pixel 0=clear/1=set (y need to set by SET statement)
+CIRCLE x,y,r		circle at x,y with radius r
+SPRITE n,s		sprite n=0-7 state 1=on/0=off 
+SPRSET n,a		set sprite n=0-7 a=dataaddress in bank 15 ($0400-$07bf in $40 steps)
+SPRPOS n,x,y		move sprite n=0-7 to x, y pos. (0=lower left) 
+HPRINT x,y,""		print with userfont to x, y	 
+USERFONT adr,b		set userfont to adr=address, b=bank
+UPRINT ""		print with userfont to cursor pos 
+UPOS r,c		set uprint cursor to row, column
+INVERT			invert screen
+HARD			hardcopy to printer (in the future...)
