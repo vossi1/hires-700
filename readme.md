@@ -33,18 +33,15 @@ Hires graphics and text pixels are linked OR, as with the Data Becker Hires 8000
 **details:**
 
 The card/ram access is controlled via UserPort B.
-It should also work with the 8088 or Z8000 card - but unfortunately not with the Proxa7000,
-as this is also controlled via PortB. PortA is unfortunately not available (used by IEEE).
+It should also work with the 8088 or Z8000 card - but unfortunately not with the Proxa7000, as this is also controlled via PortB. PortA is unfortunately not available (used by IEEE).
 
-The PET700 monitor still works with 18.4kHz, but the vertical frequency is now 44Hz.
-Standard characters are now 16 pixels high.
-The real resolution is now 720x400, but every ninth pixel cannot be influenced. It is controlled
-in text mode via the flip-flop 0 - or in graphics mode 1.
+The PET700 monitor still works with 18.4kHz, but the vertical frequency is now 44Hz. Standard characters are now 16 pixels high.
+The real resolution is now 720x400, but every ninth pixel cannot be influenced.
+It is controlled in text mode via the flip-flop 0 - or in graphics mode 1.
 I always use the graphics mode of the 700 so that horizontal lines are continuous.
 The character-set can still be switched freely via the hires card.
 
-There are only simple standard TTLs. The board is in the Char+Screenram socket and a 74245 must
-also be socketed.
+There are only simple standard TTLs. The board is in the Char+Screenram socket and a 74245 must also be socketed.
 
 ![Hires-700 Card](https://github.com/vossi1/hires-700/blob/master/photos/hires700.jpg)
 
@@ -53,13 +50,12 @@ also be socketed.
 The assembler demos run without a cartridge.
 
 For the Basic demos you need my cartridge at $6000 in the expansion slot. 
-The cart runs with Basic 128 and Basic 256 - it has all modified Basic routines twice,
-as the Basic variants have different subroutine addresses.
+The cart runs with Basic 128 and Basic 256 - it has all modified Basic routines twice, as the Basic variants have different subroutine addresses.
 
 If there is a Hires-Basic command after THEN, a : must be placed in front of it.
 The commands are clearly visible in the Demo700 - I will write a list.
-In the sprite demo you can see the sprite commands. In the font demo you can see the Hires Print
-command HPRINT. In the PRINT demo you can see the UPRINT command.
+In the sprite demo you can see the sprite commands. In the font demo you can see the Hires Print command HPRINT.
+In the PRINT demo you can see the UPRINT command.
 
 ![Circles](https://github.com/vossi1/hires-700/blob/master/photos/circles.jpg)
 
