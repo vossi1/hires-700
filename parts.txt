@@ -1,0 +1,24 @@
+Partlist Hires-700 V1.1
+
+Part     Value          Device
+
+C1-C9    100nF          CERAMIC 5mm
+IC1      2332           CHARROM from 700 Board
+IC2      6116           VIDEORAM from 700 Board
+IC3      62256          32KB SRAM
+IC4      74LS00
+IC5      74LS32
+IC6      74LS157
+IC7      74LS32
+IC8      74LS32
+IC9      74ALS574       (74F574, 74LS574)
+IC10     74LS245
+IC11     74LS245        U30 from 700 Board
+J1       PINHEAD10      (Pin 10 Reserve)
+R1-R3    3,3k
+RN1      3,3k           Resistor Network 8-9
+U29      SOCKET_U29     DIL24-Pin-Adapter
+U30      SOCKET_U30     DIL20
+U41      SOCKET_U41     DIL24-Pin-Adapter
+
+FLATCABLE with two DIP20-Adapters

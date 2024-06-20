@@ -1,0 +1,7 @@
+*.DS_Store
+*.bin~
+*.prg~
+*.sym
+*.lst
+test.bin
+hires700cart_512.bin
