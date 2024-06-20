@@ -14,9 +14,7 @@ International License. See [https://creativecommons.org/licenses/by-sa/4.0/](htt
 
 **description:**
 
-Hello, I found a home-made graphics card in a 610 a few years ago. The card had already been
-patched in various places. Fortunately, I also found a note in a folder with notes on the
-installation and corrections.
+Hello, I found a home-made graphics card in a 610 a few years ago. The card had already been patched in various places. Fortunately, I also found a note in a folder with notes on the installation and corrections.
 Now I reverse engineered it and realised that this card cannot work due to design errors :wink:
 
 I then modified it, extended it and adapted it for the 7xx.
@@ -26,8 +24,7 @@ I programmed the CRTC to 400 lines. Now the pixels are a bit more square.
 However, as the phosphor remains lit for such an extremely long time, there is no flickering.
 
 The 640x400 pixels of the Hires card fit with 32000 bytes exactly into the 32KB RAM of the card.
-Hires graphics and text pixels are linked OR, as with the Data Becker Hires 8000. In my opinion,
-this is the most usable concept!
+Hires graphics and text pixels are linked OR, as with the Data Becker Hires 8000. In my opinion, this is the most usable concept!
 
 :white_check_mark: I also coded a nice Basic Cartridge with many fast new BASIC commands!
 
@@ -49,7 +46,7 @@ The character-set can still be switched freely via the hires card.
 There are only simple standard TTLs. The board is in the Char+Screenram socket and a 74245 must
 also be socketed.
 
-![Hires-700 Card](https://github.com/hires-700/v6510/blob/master/photos/hires700.jpg)
+![Hires-700 Card](https://github.com/vossi1/hires-700/blob/master/photos/hires700.jpg)
 
 **demos / cartridge**
 
@@ -80,4 +77,4 @@ The last pin of the pinheader and two gates in the 7400 are reserve.
 I have also successfully tested an LS for the 74ALS574.
 
 Prototype:
-![Prototype](https://github.com/hires-700/v6510/blob/master/photos/prototype.jpg)
+![Prototype](https://github.com/vossi1/hires-700/blob/master/photos/prototype.jpg)
