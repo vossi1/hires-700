@@ -52,7 +52,7 @@ The assembler demos run without a cartridge.
 For the Basic demos you need my cartridge at $6000 in the expansion slot. 
 The cart runs with Basic 128 and Basic 256 - it has all modified Basic routines twice, as the Basic variants have different subroutine addresses.
 
-**[Parts](https://github.com/vossi1/hires-700/blob/master/commands.txt)**
+**[Commands](https://github.com/vossi1/hires-700/blob/master/commands.txt)**
 
 If there is a Hires-Basic command after THEN, a : must be placed in front of it.
 The usage of the new commands are clearly visible in the Demo700.
