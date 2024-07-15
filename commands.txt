@@ -22,4 +22,4 @@ USERFONT adr,b		set userfont to adr=address, b=bank
 UPRINT ""		print with userfont to cursor pos 
 UPOS r,c		set uprint cursor to row, column
 INVERT			invert screen
-HARD			hardcopy to printer (in the future...)
+ICOPY x,y,dx,dy,adr,b	copy image form x,y size dx,dy to adr,bnk
